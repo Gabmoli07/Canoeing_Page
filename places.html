@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Places</title>
+<style type="text/css">
+.container {
+	height: 768px;
+	width: 1024px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.banner {
+	height: 180px;
+	width: 1024px;
+	text-align: center;
+}
+.navigation {
+	height: 80px;
+	width: 1024px;
+	text-align: center;
+}
+.button {
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+.content {
+	background-color: #00aeef;
+	height: 438px;
+	width: 1024px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.footer {
+	background-color: #000000;
+	height: 70px;
+	width: 1024px;
+	text-align: center;
+	line-height: 70px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: #FFFFFF;
+	}
+	a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+body {
+	background-image: url(images/background.jpg);
+}
+.terms {
+	height: 400px;
+	width: 480px;
+	overflow: auto;
+	text-align: left;
+	background-size: auto auto;
+	-webkit-box-shadow: inset 0px 0px;
+	border-radius: 15px;
+	box-shadow: inset 0px 0px;
+	margin-left: 10px;
+}
+.terms2 {
+	margin-left: 10px;
+	margin-right: 10px;
+	letter-spacing: 1px;
+	text-indent: 10px;
+}
+.left {
+	float: left;
+	margin-left: 10px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.subtitle {
+	font-style: oblique;
+	font-size: x-large;
+	margin-left: 10px;
+	text-shadow: 0px 0px;
+}
+.right {
+	float: right;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.title {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	color: #FF0000;
+	font-size: xx-large;
+	text-align: left;
+	font-style: italic;
+	font-weight: 400;
+	clear: right;
+	margin-left: 10px;
+	text-shadow: 1px 0px #FFFFFF;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/just-me-again-down-here:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body onLoad="MM_preloadImages('animation/animation_1.gif','animation/animation_2.gif','animation/animation_3.gif','animation/animation_4.gif','animation/animation_5.gif')">
+<div class="container">
+  <div class="banner"><img src="images/banner.png" width="1000" height="180" alt=""/></div>
+  <div class="navigation"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','animation/animation_1.gif',1)"><img src="buttons/home_button_a.png" alt="HOME BUTTON" width="190" height="70" class="button" id="home"></a><a href="canoeing.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('canoeing','','animation/animation_2.gif',1)"><img src="buttons/canoeing_button_a.png" alt="CANOEING BUTTON" width="190" height="70" class="button" id="canoeing"></a><a href="rafting.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('rafting','','animation/animation_3.gif',1)"><img src="buttons/rafting_button_a.png" alt="RAFTING BUTTON" width="190" height="70" class="button" id="rafting"></a><a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact','','animation/animation_4.gif',1)"><img src="buttons/contact_button_a.png" alt="CONTACT BUTTON" width="190" height="70" class="button" id="contact"></a><a href="places.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('places','','animation/animation_5.gif',1)"><img src="buttons/places_button_b.png" alt="PLACES BUTTON" width="190" height="70" class="button" id="places"></a></div>
+  <div class="content">
+    <table width="1013" height="439" border="0">
+      <tbody>
+        <tr>
+          <td width="497" valign="top"><div class="terms">
+            <p class="title">New York</p>
+            <p><em class="subtitle" id="ny">Kennebec River</em><br>
+               <br>
+              <img src="images/Kennebec River .jpg" alt="" width="218" height="169" class="left"/><span class="terms2">The Kennebec River offers consistent class 2-4 whitewater rafting every day from May through October. It&rsquo;s an ideal rafting trip for first time rafters, and everyone who enjoys a good mix of whitewater action, fire-grilled lunch on a river beach, and a peaceful afternoon float to the take-out.</span></p>
+            <p>&nbsp;</p>
+            <p><em class="subtitle">Penobscot river </em></p>
+            <p><span class="terms2"><img src="images/Penobscot river.jpg" alt="" width="206" height="172" class="left"/></span><br>
+               <span class="terms2">Epic best describes whitewater rafting the West Branch of the Penobscot River, under the shadow of Mount Katahdin. We launch rafting trips in the steep rock walls of Ripogenus Gorge, through the class V rapids of The Cribworks to raft surfing at Big Amberjack. After lunch get set to tackle Nesowadnehunk Falls 11′ foot drop, and the rapids of the lower river.</span></p>
+            <p>&nbsp;</p>
+            <p><em class="subtitle" id="ny2">Allegany State Park-Quaker Area</em></p>
+            <p><img src="images/Allegany State Park-Quaker Area .jpg" alt="" width="300" height="300" class="right"/></p>
+            <p class="terms2">New York is home to some of the greatest waterways on the East Coast. Team up with professional guides at Sacandaga Outdoor Center to enjoy tubing, rafting, and kayaking on the Hudson and Saranac Rivers. Just minutes from Lake George, this family-friendly outfitter is great for groups and for introducing the kids to the outdoors.</p>
+            <p>&nbsp;</p>
+            <p class="title">New Jersey </p>
+            <p class="subtitle"><em id="nj">Delaware Water Gap National Recreation Area</em></p>
+            <p><img src="images/Delaware Water Gap National Recreation Area  .jpg" alt="" width="236" height="223" class="left"/><span class="terms2">Located in the northwest corner of New Jersey, the park runs along 40 miles of the Delaware River, including where it cuts through a ridge in the Appalachian Mountains to form the famed &ldquo;gap.&rdquo; The park is a magnet for kayak enthusiasts.</span></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p class="subtitle"><em id="nj2">Lakeview Marina &nbsp;</em></p>
+            <p class="terms2"><img src="images/ Lakeview Marina  .jpg" alt="" width="260" height="143" class="right"/>Being on New Jersey's largest lake means that there are plenty of places for kayakers to paddle and explore. Lakeview offers Kayak rentals, and has a boat ramp for launching kayaks.</p>
+            <p>&nbsp;</p>
+            <p class="title" id="pa">Pennsylvania</p>
+            <p class="subtitle"><em>Youghiogheny River</em></p>
+            <p><img src="images/Youghiogheny River .jpeg" alt="" width="244" height="210" class="left"/><span class="terms2">The Youghiogheny River flows through one of Pennsylvania's largest state parks,&nbsp;Ohiopyle, in the&nbsp;Laurel Highlands&nbsp;region in southwestern Pennsylvania. Locals call it the Yough The river is popular for white water rafting and kayaking.The loop is perfect for kayakers since they do not need a transport vehicle. </span></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+          </div></td>
+          <td width="500"><img src="images/2_columm_2.png" alt="" width="500" height="400" usemap="#Map"/></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+ <footer class="footer"><a href="mailto:molina1112@hotmail.com" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif">IT mail</a> | <a href="contact.html">Social Media</a> | © 2018 Canoeing&amp;Rafting. All Rights Reserved. </footer>
+</div>
+
+<map name="Map">
+  <area shape="poly" coords="173,156,265,89,361,22,360,-3,339,1,315,1,303,9,298,18,288,28,285,39,271,43,274,56,274,65,274,77,259,88,247,88,238,90,226,89,217,84,207,85,198,89,193,100,196,108,196,116,190,127,185,133,177,139,172,147" href="#ny2">
+  <area shape="poly" coords="181,156,362,27,365,46,364,60,364,85,367,110,364,135,359,153,358,174,358,193,355,202,353,207,366,207,383,207,395,199,405,204,402,207,390,216,373,223,358,229,342,230,338,225,346,212,337,198,325,187,315,178,314,167,305,161,285,157,217,159,182,156" href="#ny">
+  <area shape="poly" coords="424,21,416,32,414,43,407,54,422,68,434,74,448,73,466,71,478,67,485,57,485,43,484,36" href="#nj2">
+  <area shape="poly" coords="405,57" href="#">
+  <area shape="poly" coords="408,57,432,77,458,76,475,74,469,85,488,91,494,107,496,125,496,141,491,129,494,142,494,151,485,171,483,183,474,193,473,208,464,222,459,229,456,217,456,211,449,207,441,210,424,201,407,191,411,180,407,174,415,161,426,150,433,136,445,116,429,103,420,99,408,90,408,75,411,69,405,55" href="#nj">
+  <area shape="poly" coords="286,273,286,261,259,283,279,389,346,378,426,361,446,358,449,348,459,347,468,345,473,338,477,327,468,314,457,306,457,300,459,292,455,283,463,273,465,264,450,261,448,249,439,244" href="#pa">
+</map>
+</body>
+</html>
